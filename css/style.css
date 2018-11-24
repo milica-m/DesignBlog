@@ -218,3 +218,46 @@ header .navbar-nav li:hover a
     text-overflow:ellipsis   
 }
 
+.single-news-content h3{
+    font-family: 'ArialMT';
+}
+
+.single-news-content h5{
+    font-family: 'ArialMT';
+    color: #434242;
+}
+
+.single-news-content ul{
+    list-style-image: url('assets/puzzle.png');
+}
+
+.single-news-content li{
+    line-height: 1.7rem;
+}
+
+blockquote{ 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Arial-ItalicMT';
+    background: #EFEFEF;
+    padding: 25px 41px;
+    position: relative;
+}
+
+.quotation-marks{
+    font-size: 9rem;
+    color: #fff;
+    position: absolute;
+    top:-37px;
+    left: -7px;
+    
+}
+
+.single-news-content p:last-of-type{
+    border-bottom: 1px dotted #9a9a9a;
+    
+}
+
