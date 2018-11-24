@@ -31,6 +31,10 @@ header{
     max-width: 50%;
 }
 
+.navbar {    
+    padding: 0.5rem 0;
+}
+
 header .navbar-nav a{
     font-size: 1.1rem;
     text-align: center;
@@ -179,3 +183,38 @@ header .navbar-nav li:hover a
     border-radius: 0;
     background: #f7f7f7;
 }
+
+.top-article .top-article-item img{
+    border: 5px solid #444;
+}
+
+.top-article .top-article-item .w-75 a{
+    text-decoration: none;
+    line-height: 1.5rem;
+    max-height: 3rem;
+    overflow: hidden;
+    padding-left: 5px;
+    display: blok;
+}
+
+.recent-comment-item span.w-75{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis
+}
+
+.recent-comments p{
+    font-size: 11px;
+    border-top: 1px solid #ccc;    
+}
+
+.recent-comments p:last-of-type{
+    border-bottom: 1px solid #ccc;
+}
+
+.recent-comments a{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis   
+}
+

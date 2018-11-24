@@ -28,7 +28,7 @@ and open the template in the editor.
 
 @font-face {
   font-family: 'ArialMT';
-  src: url('fonts/Arial-MT/ArialMT.eot?#iefix') format('embedded-opentype'),  url('fonts/Arial-MT/ArialMT.woff') format('woff'), url('fonts/Arial-MT/ArialMT.ttf')  format('truetype'), url('fonts/Arial-MT/ArialMT.svg#ArialMT') format('svg');
+  src: url('fonts/ArialMT/ArialMT.eot?#iefix') format('embedded-opentype'),  url('fonts/ArialMT/ArialMT.woff') format('woff'), url('fonts/ArialMT/ArialMT.ttf')  format('truetype'), url('fonts/ArialMT/ArialMT.svg#ArialMT') format('svg');
   font-weight: normal;
   font-style: normal;
 }
