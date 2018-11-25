@@ -8,8 +8,32 @@
         font-size: 22px;
     }
     
+    .news-navigation a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: 22px !important;
+    font-family: 'MuseoSlab-500';
+}
     
-    
+ .news-navigation > span{
+    color: #4d4d4d;
+    font-size: 16px;
+    padding: 0 15px;
+    display: inline-block;
+}  
+
+.footer-aboutme div h5 {
+    font-family: 'Arial-BoldMT';
+    font-size: 1.5rem;
+    color: #9A9A9A;
+    padding-left: 20px;
+    margin-bottom: 2px;
+}
+.footer-aboutme div p{
+    padding-left: 20px;
+    text-align: justify;
+    line-height: 1.1rem;
+}
     
 }
 

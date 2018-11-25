@@ -157,13 +157,13 @@ header .navbar-nav li:hover a
 .news-navigation a{
     text-decoration: none;
     color: #4d4d4d;
-    font-size: 16px;
-    font-family: 'Arial-BoldMT';
+    font-size: 16px !important;
+    font-family: 'MuseoSlab-500';
 }
 
 .news-navigation > span{
     color: #4d4d4d;
-    font-size: 22px;
+    font-size: 16px;
     padding: 0 15px;
     display: inline-block;
 }
@@ -184,16 +184,16 @@ header .navbar-nav li:hover a
     background: #f7f7f7;
 }
 
-.top-article .top-article-item img{
+/*.top-article .top-article-item img{
     border: 5px solid #444;
-}
+}*/
 
 .top-article .top-article-item .w-75 a{
     text-decoration: none;
     line-height: 1.5rem;
     max-height: 3rem;
     overflow: hidden;
-    padding-left: 5px;
+    
     display: blok;
 }
 
@@ -329,7 +329,7 @@ footer{
 
 .footer-nav{
     padding: 0 3.3rem;
-    font-size: 1.3rem;    
+    font-size: 1.2rem;    
 }
 
 .footer-nav div a{
@@ -346,16 +346,21 @@ footer{
     padding-left: 3.3rem;
 }
 
+.footer-aboutme a{
+    text-decoration: none;
+    color: #9A9A9A;
+}
+
 .footer-aboutme div h5{
     font-family: 'Arial-BoldMT'; 
     font-size: 1.5rem;
     color: #9A9A9A;
-    padding-left: 14px;
+    
     margin-bottom: 2px;
 }
 
 .footer-aboutme div p{
-    padding-left: 14px;
+    
     text-align: justify;
     line-height: 1.1rem;
 }
