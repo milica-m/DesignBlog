@@ -218,6 +218,8 @@ header .navbar-nav li:hover a
     text-overflow:ellipsis   
 }
 
+/*single news*/
+
 .single-news-content h3{
     font-family: 'ArialMT';
 }
@@ -235,6 +237,8 @@ header .navbar-nav li:hover a
     line-height: 1.7rem;
 }
 
+/*blockquote*/
+
 blockquote{ 
     display: block;
     margin-top: 1em;
@@ -246,7 +250,6 @@ blockquote{
     padding: 25px 41px;
     position: relative;
 }
-
 .quotation-marks{
     font-size: 9rem;
     color: #fff;
@@ -255,9 +258,106 @@ blockquote{
     left: -7px;
     
 }
+/*blockquote end*/
+
 
 .single-news-content p:last-of-type{
-    border-bottom: 1px dotted #9a9a9a;
+    border-bottom: 1px dotted #9a9a9a;    
+}
+
+/*komentari start*/
+
+.komentari div.d-flex{
+    background: #F8F8F8;
+    border: 1px solid rgba(213,213,213,0.54);  
     
 }
+
+.komentari div.d-flex:last-of-type{
+    background: #fff;
+    border: 1px solid rgba(213,213,213,0.54);
+}
+
+.komentari figure p:first-of-type{
+    color: #515151;
+}
+
+.komentari p{
+    margin-bottom: 0;
+}
+
+.komentari img{
+    margin-bottom: 10px;
+}
+
+.komentari div p{
+    line-height: 1.3rem;
+    max-height: 10.5rem;
+    overflow: hidden;
+}
+
+/*contact form start*/
+
+.contact-form{
+    padding: 1.9px;
+    background: #F8F8F8;
+    border: 1px solid rgba(213,213,213,0.54);
+    margin-bottom: 90px;
+}
+
+.contact-form input.btn-dark{
+    color:#FFFFFF;
+    background-color: #686868;
+    border-color: rgba(213,213,213,0.54);
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 145px;
+    height: 40px;
+}
+
+.contact-form .form-group textarea{
+    height: 220px;
+}
+
+/*footer start*/
+
+footer{
+    padding: 22px 0;
+    border-top: 1px dotted #9a9a9a;
+}
+
+.footer-nav{
+    padding: 0 3.3rem;
+    font-size: 1.3rem;    
+}
+
+.footer-nav div a{
+    text-decoration: none;
+    color: #9A9A9A;
+}
+
+.footer-nav div a:first-of-type{
+    font-weight: bold;
+    color: #6D6D6D;
+}
+
+.footer-aboutme{
+    padding-left: 3.3rem;
+}
+
+.footer-aboutme div h5{
+    font-family: 'Arial-BoldMT'; 
+    font-size: 1.5rem;
+    color: #9A9A9A;
+    padding-left: 14px;
+    margin-bottom: 2px;
+}
+
+.footer-aboutme div p{
+    padding-left: 14px;
+    text-align: justify;
+    line-height: 1.1rem;
+}
+
 
